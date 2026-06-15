@@ -1,0 +1,61 @@
+camera_front:
+   xoff:    0.70  # m
+   yoff:    0.0   # m
+   zoff:    0.50  # m
+   roll:    0.0   # rad
+   pitch:   0.52  # rad
+   yaw:     0.0   # rad  
+   color:   "Gazebo/Red"
+
+camera_front_left:
+   xoff:    0.1   # m
+   yoff:    0.1   # m
+   zoff:    0.58  # m
+   roll:    0.0   # rad
+   pitch:   0.52  # rad
+   yaw:     0.52  # rad  0.52 rad = 30 deg
+   color:   "Gazebo/Red"
+
+camera_front_right:
+   xoff:    0.1   # m
+   yoff:   -0.1   # m
+   zoff:    0.58  # m
+   roll:    0.0   # rad
+   pitch:   0.52  # rad
+   yaw:    -0.52  # rad
+   color:   "Gazebo/Green"
+
+camera_back:
+   xoff:   -0.1   # m
+   yoff:    0.0   # m
+   zoff:    0.58  # m
+   roll:    0.0   # rad
+   pitch:   0.52  # rad
+   yaw:     3.14  # rad
+   color:   "Gazebo/Blue"
+
+imu:
+   xoff:    0.0   # m
+   yoff:    0.0   # m
+   zoff:    0.32  # m
+   roll:    0.0   # rad
+   pitch:   0.0   # rad
+   yaw:     0.0   # rad
+   color:   "Gazebo/Red"
+
+lidar:
+   xoff:    0.70  # m
+   yoff:    0.0   # m
+   zoff:    0.45  # m
+   roll:    0.0   # rad
+   pitch:   0.0   # rad
+   yaw:     0.0   # rad
+
+gps:
+   xoff:    0.0   # m
+   yoff:    0.0   # m
+   zoff:    0.38  # m
+   roll:    0.0   # rad
+   pitch:   0.0   # rad
+   yaw:     0.0   # rad
+   color:   "Gazebo/Green"

@@ -1,2 +1,43 @@
-# robovolc_rosys
-This repository contains all the material for creating a robovolc simulation on ROS2 Humble - Ubuntu 22.04.5 LTS
+# robovolc
+This package contains the URDF file of a diff drive walker and launch files to launch it in gazebo and rviz.
+
+## Usage
+1. Create the ROS2 workspace:
+   ```bash
+   mkdir  robovolc_ws/src -p  
+   cd robovolc_ws  
+   colcon build --symlink-install  
+   source install/local_setup.bash
+   ```
+
+2. Clone this repository to your ROS2 workspace:
+   ```bash
+   cd src \
+   git clone https://github.com/rosysgroup/robovolc_rosys.git
+   ```
+
+3. Build the ROS2 package:
+   ```bash
+   cd  robovolc_ws  
+   colcon build --symlink-install  
+   source install/local_setup.bash
+   ```
+
+4.    Launch the robot in RVIZ2
+   ```bash
+   ros2 launch robovolc_rosys display.launch.py
+   ```
+
+5. Launch the robot in Gazebo
+   ```bash
+   ros2 launch robovolc_rosys gazebo.launch.py
+   ```
+
+6. Open another terminal and use
+   ```bash
+   ros2 run teleop_twist_keyboard teleop_twist_keyboard
+   ```
+   Move your robot around
+
+## License
+This project is licensed under the RoSys Group License.
