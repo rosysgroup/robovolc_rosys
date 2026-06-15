@@ -1,5 +1,5 @@
 # robovolc
-This package contains the URDF file of a diff drive walker and launch files to launch it in gazebo and rviz.
+This package contains the URDF file of robovolc robot and launch files to launch it in gazebo and rviz.
 
 ## Usage
 1. Create the ROS2 workspace:
